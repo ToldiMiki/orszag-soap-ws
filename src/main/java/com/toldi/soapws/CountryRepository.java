@@ -16,6 +16,7 @@ public class CountryRepository {
 	@PostConstruct
 	public void initData() {
 		Country hungary = new Country();
+		hungary.setId("HU");
 		hungary.setName("Magyarország");
 		hungary.setCapital("Budapest");
 		hungary.setCurrency(Currency.HUF);
