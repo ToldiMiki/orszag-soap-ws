@@ -18,13 +18,14 @@ public class CountryRepository {
 		Country hungary = new Country();
 		hungary.setId("HU");
 		hungary.setName("Magyarország");
-		hungary.setCapital("Budapest");
+		hungary.setCapital("BudaPest");
 		hungary.setCurrency(Currency.HUF);
 		hungary.setPopulation(9841587);
 
 		countries.put(hungary.getName(), hungary);
 
 		Country poland = new Country();
+		hungary.setId("PL");
 		poland.setName("Lengyelország");
 		poland.setCapital("Varsó");
 		poland.setCurrency(Currency.PLN);
