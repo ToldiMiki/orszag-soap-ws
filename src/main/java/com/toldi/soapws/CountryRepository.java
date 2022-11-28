@@ -25,7 +25,7 @@ public class CountryRepository {
 		countries.put(hungary.getName(), hungary);
 
 		Country poland = new Country();
-		hungary.setId("PL");
+		//poland.setId("PL");
 		poland.setName("Lengyelország");
 		poland.setCapital("Varsó");
 		poland.setCurrency(Currency.PLN);
